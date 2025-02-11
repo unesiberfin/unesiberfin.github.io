@@ -4,11 +4,11 @@ font-size: 18px;
 }    
 
 header, footer {
-    background-color: rgb(220, 175, 241);
+    background-color: #a4faa8;
 }
 
 .site-title {
-    color: rgb(67, 20, 122);
+    color: #275129;
 }
 
 #my-image {
@@ -19,8 +19,30 @@ header, footer {
     list-style: square;
 }
 
-.hobby-list:nth-child(odd) {
-    background-color: rgb(250, 225, 200);
+li:nth-child(odd) {
+    background-color:#a4faa8;
 }
 
+a:link {
+    text-decoration: none;
+}
 
+#navbar li {
+    list-style-type: none;
+    background-color: transparent;
+}
+#navbar li {
+    list-style-type: none;
+    
+}
+
+#navbar a {
+    color: #ffffff;
+    background-color: #75a776;
+    border-style: solid;
+    border-color: #275129;
+}
+
+#navbar a:hover {
+    background-color: #275129;
+}
