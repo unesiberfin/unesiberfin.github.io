@@ -15,9 +15,12 @@ header, footer {
     box-shadow: 0 0 2px 1px black;
 }
 
-ul {
+.hobby-list {
     list-style: square;
 }
 
+.hobby-list:nth-child(odd) {
+    background-color: rgb(250, 225, 200);
+}
 
 
