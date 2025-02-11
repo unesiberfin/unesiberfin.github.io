@@ -4,5 +4,20 @@ font-size: 18px;
 }    
 
 header, footer {
-    background-color: goldenrod;
+    background-color: rgb(220, 175, 241);
 }
+
+.site-title {
+    color: rgb(67, 20, 122);
+}
+
+#my-image {
+    box-shadow: 0 0 2px 1px black;
+}
+
+ul {
+    list-style: square;
+}
+
+
+
