@@ -1,0 +1,34 @@
+body {
+    background-color: #aad4cf;
+    margin: 0px;
+}
+.navbar {
+    background-image:('../images/lone-starfish-wide')
+}
+
+h1 {
+    text-align: center;
+}
+.navbar ul{
+   list-style-type: none;
+   background-color: ;
+   padding: 0;
+   margin: 0;
+   overflow: hidden;
+   
+}
+nav a {
+    text-decoration: none;
+    color: black;
+    padding: 20px;
+    display: flex;
+    text-align: center;
+}
+
+.navbar a:hover {
+    background-color: gray;
+}
+
+.navbar li {
+    float: left;
+}
