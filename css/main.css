@@ -1,10 +1,8 @@
 html {
-    display: inline-block;
     display: flex;
-    align-content: center;
-    width:500px; 
-    length:auto;
     background-color: #aad4cf;
+    width:600px; 
+    height:auto;  
 }
 
 body {
@@ -24,13 +22,14 @@ h1 {
     top: 50%;
     left: 50%;
     transform: translate(-50%, -50%);
+    font-size: 60px;
 }
 .navbar ul li{
     display: inline-block;
     list-style-type: none;
     padding: 0;
     margin: 0;
-    width: 33%;
+    width: 300px;
     text-align: center;
     font-size: 24px;
 }
@@ -58,7 +57,7 @@ h1 {
 .starfish { 
     float: left;
     width: 300px;
-    padding: 10px;
+    padding: 0px 20px 20px 10px;
 }
 
 .form{
@@ -75,3 +74,21 @@ padding: 10px;
     padding: 6px;
 }
 
+.section1 {
+    display: block;
+    font-size: 20px;
+    width: 100%;
+}
+
+.facts ul{
+   padding-left:22px;
+}
+
+.facts{
+    display:flex;
+    flex-direction: column;
+}
+
+.facts h3 {
+    
+}
