@@ -1,18 +1,25 @@
-html {
-    display: flex;
+body {
+    display: block;
     background-color: #aad4cf;
-    width:600px; 
-    height:auto; 
-    font-family: Arial, sans-serif, sans-serif;
+    margin: 0px; 
+}
+
+.container {
+    background-color: #D4E9E7;
+    font-family: helvetica, sans-serif, 'Times New Roman';
+    margin: auto;
+    display: flex;
+    flex-wrap: wrap;
+    width: 1000px;
 } 
 
-body {
-    background-color: #D4E9E7;
-    margin: 0px;
+.navimage {
+    width: 100%;
 }
 
 header {
-    display: inline-block;
+    display: flex;
+    flex-wrap: wrap;
     position: relative; 
     text-align: center;
     color: white;
@@ -24,7 +31,7 @@ h1 {
     left: 50%;
     transform: translate(-50%, -50%);
     font-size: 60px;
-    font-weight: 100;
+    font-weight: 150;
 }
 .navbar ul li{
     display: inline-block;
@@ -96,3 +103,10 @@ padding: 10px;
 .facts h3 {
     
 }
+
+footer {
+    display: flex;
+    float: right;
+    padding: 20px 20px;
+}
+
