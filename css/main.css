@@ -1,3 +1,7 @@
+html{
+    font-family: helvetica, sans-serif, 'Times New Roman';
+}
+
 body {
     display: block;
     background-color: #aad4cf;
@@ -6,7 +10,6 @@ body {
 
 .container {
     background-color: #D4E9E7;
-    font-family: helvetica, sans-serif, 'Times New Roman';
     margin: auto;
     display: flex;
     flex-wrap: wrap;
@@ -24,15 +27,32 @@ header {
     text-align: center;
     color: white;
 }
+.maincontent{
+    margin: 5px 10px;
+    font-size: 18px;
+}
 
 h1 {
     position: absolute;
     top: 50%;
     left: 50%;
     transform: translate(-50%, -50%);
-    font-size: 60px;
-    font-weight: 150;
+    font-size: 70px;
+    font-weight: 200;
 }
+
+h2 {
+    margin: 10px 10px;
+    font-size: 42px;
+    font-weight: 500;
+}
+
+h3 {
+    font-size: 34px;
+    font-weight: 500;
+    margin: 10px 10px;
+}
+
 .navbar ul li{
     display: inline-block;
     list-style-type: none;
@@ -42,13 +62,17 @@ h1 {
     text-align: center;
     font-size: 24px;
 }
-.navbar li a {
+.navbar a {
     text-decoration: none;
     color: black;
-    padding: 20px;
-    display: flex;
     text-align: center;
+    
 }
+
+.navbar li:nth-child(-n+2){
+    border-right: black solid 1px;
+}
+
 
 .navbar a:hover {
     background-color: #c9e4e1;
@@ -118,15 +142,13 @@ h1 {
    padding-left:22px;
 }
 
-.facts{
-    display:flex;
-    flex-direction: column;
-}
-
-
 footer {
-    display: flex;
-    float: right;
+    display: block;
+    text-align: right;
     padding: 20px 20px;
 }
 
+footer p {
+    display: flex;
+    align-items: right;
+}
