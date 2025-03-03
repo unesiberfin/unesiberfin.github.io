@@ -2,11 +2,12 @@ html {
     display: flex;
     background-color: #aad4cf;
     width:600px; 
-    height:auto;  
-}
+    height:auto; 
+    font-family: Arial, sans-serif, sans-serif;
+} 
 
 body {
-    background-color: #c1e0dd;
+    background-color: #D4E9E7;
     margin: 0px;
 }
 
@@ -23,6 +24,7 @@ h1 {
     left: 50%;
     transform: translate(-50%, -50%);
     font-size: 60px;
+    font-weight: 100;
 }
 .navbar ul li{
     display: inline-block;
@@ -42,7 +44,7 @@ h1 {
 }
 
 .navbar a:hover {
-    background-color: #aad4cf;
+    background-color: #c9e4e1;
 }
 
 .navbar li a{
@@ -68,10 +70,12 @@ padding: 10px;
 
 
 .button {
+    width: 60px;
     margin-left: 0;
     margin-top: 20px;
     background: transparent;
     padding: 6px;
+    
 }
 
 .section1 {
