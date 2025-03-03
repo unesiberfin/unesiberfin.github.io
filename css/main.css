@@ -69,11 +69,23 @@ h1 {
     padding: 0px 20px 20px 10px;
 }
 
-.form{
-border:1px rgb(86, 86, 86) solid;
-margin: 5px;
-padding: 10px;
+.contact{
+    border: 1px groove rgb(57, 57, 57);
+    box-sizing: border-box;
+    padding: 15px;
+    margin: 10px;
 }
+
+.textbox{
+    display: block;
+
+}
+
+#fname, #email {
+    display: block;
+    width: 100%;
+}
+
 
 
 .button {
@@ -110,3 +122,13 @@ footer {
     padding: 20px 20px;
 }
 
+
+
+
+/* 
+width: 100%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    display: inline-block;
+    box-sizing: border-box;
+} */
