@@ -1,13 +1,23 @@
-body {
+html {
+    display: inline-block;
+    display: flex;
+    align-content: center;
+    width:500px; 
+    length:auto;
     background-color: #aad4cf;
+}
+
+body {
+    background-color: #c1e0dd;
     margin: 0px;
 }
+
 header {
     display: inline-block;
-    position: relative;
+    position: relative; 
     text-align: center;
     color: white;
-  }
+}
 
 h1 {
     position: absolute;
@@ -15,15 +25,16 @@ h1 {
     left: 50%;
     transform: translate(-50%, -50%);
 }
-.navbar ul{
-   list-style-type: none;
-   background-color: ;
-   padding: 0;
-   margin: 0;
-   overflow: hidden;
-   
+.navbar ul li{
+    display: inline-block;
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+    width: 33%;
+    text-align: center;
+    font-size: 24px;
 }
-nav a {
+.navbar li a {
     text-decoration: none;
     color: black;
     padding: 20px;
@@ -32,10 +43,35 @@ nav a {
 }
 
 .navbar a:hover {
-    background-color: gray;
+    background-color: #aad4cf;
 }
 
-.navbar li {
+.navbar li a{
     display: inline;
-    float: left;
+    
 }
+
+.section1{
+    display: inline-block;
+}
+
+.starfish { 
+    float: left;
+    width: 300px;
+    padding: 10px;
+}
+
+.form{
+border:1px rgb(86, 86, 86) solid;
+margin: 5px;
+padding: 10px;
+}
+
+
+.button {
+    margin-left: 0;
+    margin-top: 20px;
+    background: transparent;
+    padding: 6px;
+}
+
