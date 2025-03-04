@@ -1,4 +1,5 @@
-html{
+*{
+    box-sizing: border-box;
     font-family: helvetica, sans-serif, 'Times New Roman';
 }
 
@@ -37,12 +38,12 @@ h1 {
     top: 50%;
     left: 50%;
     transform: translate(-50%, -50%);
-    font-size: 70px;
+    font-size: 60px;
     font-weight: 200;
 }
 
 h2 {
-    margin: 10px 10px;
+    margin: 15px 10px;
     font-size: 42px;
     font-weight: 500;
 }
@@ -53,34 +54,29 @@ h3 {
     margin: 10px 10px;
 }
 
-.navbar ul li{
+
+.navbar li{
     display: inline-block;
     list-style-type: none;
-    padding: 0;
     margin: 0;
     width: 300px;
     text-align: center;
-    font-size: 24px;
+    font-size: 24px; 
 }
+
 .navbar a {
     text-decoration: none;
     color: black;
     text-align: center;
-    
 }
+
 
 .navbar li:nth-child(-n+2){
     border-right: black solid 1px;
 }
 
-
 .navbar a:hover {
-    background-color: #c9e4e1;
-}
-
-.navbar li a{
-    display: inline;
-    
+    background-color: #84cec7;
 }
 
 .section1{
@@ -89,7 +85,7 @@ h3 {
 
 .starfish { 
     float: left;
-    width: 300px;
+    width: 375px;
     padding: 0px 20px 20px 10px;
 }
 
@@ -102,7 +98,6 @@ h3 {
 
 .textbox{
     display: block;
-
 }
 
 #fname, #email {
