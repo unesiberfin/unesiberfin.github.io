@@ -10,7 +10,7 @@
     <div class="container"></div>
     <!-- contains nav-bar and welcome section -->
         <header>
-                <nav>
+                <div>
                     <!-- will be used to style navigation bar background -->
                     <nav class="navigation bar">
                         <img src="images/logo.png" alt="website-logo" class="logo">
@@ -25,31 +25,97 @@
                     </nav>
                     <!-- main content background goes here -->
                      <img src="images/main-banner.jpg" alt="main-banner">
-                    <nav>
+                    <div>
                         <!-- main content goes here -->
-                        <nav class="welcome">
+                        <div class="welcome">
                             <h1>Welcome to Three Star Media</h1>
                             <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Eaque totam facilis modi ullam reprehenderit quos natus. Quod exercitationem, nobis quo, natus ipsa aperiam beatae, tempora et doloribus reprehenderit maiores nisi?</p>
                             <!-- action will be added to the button -->
-                            <button type="#">Connect with us <i class="fa-solid fa-caret-right"></i></button>
-                        </nav>
-                    </nav>
-                </nav>
+                            <button type="button">Connect with us <i class="fa-solid fa-caret-right"></i></button>
+                        </div>
+                    </div>
+                </div>
         </header> 
+         <!-- Adds margin to create spacing around the main content -->
         <main class="main-content">
-            <!-- to add margin to the main content -->
-            <nav class="container-main">
-                <nav>
-                    <nav>
+            <!-- Main navigation container for structuring content -->
+            <div class="container-main">
+                <!-- Section for the About Us content -->
+                <div class="section-about">
+                    <div>
                     <img src="images/about-us.jpg" alt="">
                     <h2>About Us</h2>
-                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptatem, maxime officiis labore velit commodi vel dicta cum. Sint fugiat aspernatur sequi, dicta esse quo veritatis molestias in eum, voluptate vitae?
-                    Beatae aperiam optio doloribus libero error at eos mollitia eligendi commodi perspiciatis quibusdam recusandae fugit, magnam atque iusto sequi nisi amet cupiditate ad perferendis omnis dolorem. Aut doloribus molestiae sunt?
-                  
+                    <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Facere velit, accusantium placeat harum sapiente earum suscipit dolor asperiores fuga deleniti quae alias veritatis consequuntur necessitatibus tempora in officiis error praesentium!
+                    </p> 
+                    <p> Culpa blanditiis eveniet numquam necessitatibus voluptatem, aliquam nihil aliquid enim pariatur magni consequatur. Aut iure, nihil ut enim voluptatem inventore reiciendis distinctio suscipit! Similique reiciendis fuga necessitatibus voluptatem, veniam asperiores corporis quod aliquam!
                     </p>
-                    </nav>
-                </nav>
-            </nav>
+                     </div>
+                </div>
+            </div>
+            <div>
+                <!-- Container for our services section using Flexbox - 5 sections -->
+                <h2 class="services">Our Services</h2>
+                 <!-- Section for Digital Transformation Services -->
+                <div>
+                    <!-- Subheading for digital transformation services -->
+                    <h3 class="digital">Digital Transformation</h3>
+                    <!-- Image representing digital transformation -->
+                    <img src="images/digital.jpg" alt="digital-transformation" class="digital">
+                    <!-- Description of digital transformation services -->
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quod mollitia animi, enim veniam similique minima voluptate ducimus vero, blanditiis deserunt quam dicta quidem? Nihil illo impedit dicta quibusdam aperiam asperiores?</p>
+                    <button type="button" class="digital-button">Digital Plans <i class="fa-solid fa-caret-right"></i></button>
+                </div>
+                <!-- Section for Marketing Services -->
+                <div>
+                    <!-- Subheading for video production services -->
+                    <h3 class="marketing">Our Services</h3>
+                    <!-- Image representing marketing services -->
+                    <img src="images/marketing.jpg" alt="picture-of-a-laptop" class="marketing">
+                    <!-- Description of marketing services -->
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quod mollitia animi, enim veniam similique minima voluptate ducimus vero, blanditiis deserunt quam dicta quidem? Nihil illo impedit dicta quibusdam aperiam asperiores?</p>
+                    <!-- Button for marketing services -->
+                        <button type="button" class="marketing-button">Marketing <i class="fa-solid fa-caret-right"></i></button>
+                </div>
+                <!-- Section for Video Production Services -->
+                <div>
+                    <!-- Subheading for video production services -->
+                    <h3>Video Production</h3>
+                    <!-- Image representing video production -->
+                    <img src="images/video.jpg" alt="picture-of-a-smartphone" class="video">
+                    <!-- Description of video production services -->
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Velit optio dolorem, voluptatibus quasi quaerat temporibus sunt nam? Delectus sequi voluptates et quasi tempore, maiores odit error beatae similique eum placeat.</p>
+                    <button type="button" class="video-class">Video Plans <i class="fa-solid fa-caret-right"></i></button>
+                </div>
+                 <!-- Section for Web Development Services -->
+                <div>
+                    <!-- Subheading for the web development services section -->
+                    <h3>Web Development</h3>
+                    <!-- Image representing web development-->
+                    <img src="images/web.jpg" alt="picture-of-a-smartphone-a-pen-a-notebook">
+                    <!-- Description of web development services -->
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Illo aut expedita, aliquam reprehenderit id ipsum sunt, deleniti numquam alias voluptatum inventore corrupti in voluptate soluta atque et quam sint magnam?</p>
+                    <button type="button" class="web-button">Web Plans <i class="fa-solid fa-caret-right"></i></button>
+                </div>
+                <!-- Section for Print Services -->
+                <div>
+                    <!-- Subheading for the print services section -->
+                    <h3>Print</h3>
+                    <img src="images/print.jpg" alt="picture-of-mailboxes">
+                        <!-- Description of print services -->
+                        <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Porro eum accusantium, rem dolor quo repellat quae dignissimos explicabo eligendi, quam voluptates. Impedit id deleniti quasi officiis officia, saepe alias in.</p>
+                    <button type="button" class="print-button">Print Plans <i class="fa-solid fa-caret-right"></i></button>
+                </div>
+            </div>
+            <div>
+                 <!-- Section for "Our Vision" -->
+                <div>
+                    <!-- Subheading for the vision section -->
+                    <h3>Our Vision</h3>
+                    <!-- Description of the vision statement -->
+                    <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Reprehenderit consectetur quidem a saepe velit, magnam ducimus maxime sunt quaerat ex tempora necessitatibus assumenda nam non magni fugit modi maiores omnis.</p>
+                    <button type="button" class="learn">Learn More</button>
+                </div>
+            </div>
         </main>
         <footer>
 
