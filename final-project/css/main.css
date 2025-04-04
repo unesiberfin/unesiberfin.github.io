@@ -1,0 +1,39 @@
+/* @media screen and (max-width: 600px) {
+    .navbar{
+        background-color: blue:
+
+    }
+} */
+
+.container {
+    background-color: black;
+ }
+ 
+.logo-container {
+    border: black 2px;
+    background-color: rgb(201, 141, 31);
+    height: 200px;
+    border: solid black 15px;
+ }
+
+.logo {
+   display: flex; 
+   justify-content: left;
+}
+.container ul {
+    padding: 0xp 15px;
+}
+.container li {
+    color: rgb(201, 141, 31);
+    display: flex;
+    justify-content: center;
+    padding-top: 30px; 
+
+    font-size: 20px;
+}
+
+
+.container ul :first-child {
+    color: brown;
+    background-color: bisque;
+}
