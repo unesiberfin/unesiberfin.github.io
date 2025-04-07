@@ -6,12 +6,13 @@
 
 .container {
     background-color: #222;
+    margin: 0;
 }
 
 .logo-container {
     background-color: #c78c06;
-    height: 200px;
-    border: solid #222 15px;
+    height: 12.5rem;
+    border: solid #222 1rem;
     border-bottom: 0;
 }
 
@@ -24,9 +25,8 @@
     color: #c78c06;
     display: flex;
     justify-content: center;
-    padding-top: 30px; 
-    font-size: 20px;
-    margin
+    padding-top: 1.875rem; 
+    font-size: 1.25rem;
 }
 
 .container ul :first-child {
@@ -35,7 +35,8 @@
     background-color: #c78c06;
 }
 
-
 ul{
     margin-top: 0;
+    padding: 0 0.9375rem;
 }
+
