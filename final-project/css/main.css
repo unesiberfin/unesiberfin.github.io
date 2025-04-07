@@ -1,39 +1,41 @@
 /* @media screen and (max-width: 600px) {
     .navbar{
         background-color: blue:
-
     }
 } */
 
 .container {
-    background-color: black;
- }
- 
+    background-color: #222;
+}
+
 .logo-container {
-    border: black 2px;
-    background-color: rgb(201, 141, 31);
+    background-color: #c78c06;
     height: 200px;
-    border: solid black 15px;
- }
+    border: solid #222 15px;
+    border-bottom: 0;
+}
 
 .logo {
    display: flex; 
    justify-content: left;
 }
-.container ul {
-    padding: 0xp 15px;
-}
+
 .container li {
-    color: rgb(201, 141, 31);
+    color: #c78c06;
     display: flex;
     justify-content: center;
     padding-top: 30px; 
-
     font-size: 20px;
+    margin
+}
+
+.container ul :first-child {
+    border-top: 0;
+    color: #222;
+    background-color: #c78c06;
 }
 
 
-.container ul :first-child {
-    color: brown;
-    background-color: bisque;
+ul{
+    margin-top: 0;
 }
