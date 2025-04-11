@@ -24,10 +24,11 @@
                             <li>Team</li> 
                             <li>Contact</li>
                         </ul>
-                    <div class="search-bar">
-                        <form class="search-box" action="#" method="get">
-                            <input type="text" name="query" placeholder="Search">
-                            <button type="submit"><i class="fas fa-search"></i></button>
+                        <!-- search bar -->
+                    <div class="searchbar">
+                        <form class="searchbox" action="#" method="get">
+                        <input type="text" name="query" placeholder="Search" class="text">
+                        <button type="submit" class="search-button"><i class="fas fa-search"></i></button>
                         </form>
                     </div>
                 </nav>
@@ -126,31 +127,38 @@
                     <a href="#" class="learn">Learn More<i class="fa-solid fa-caret-right"></i></a>
                 </div>
             </div>
-            <div>
-                <!-- Section heading for the team members -->
+            <div class="section-team">
+                    <!-- Section heading for the team members -->
                 <h2>Our Team</h2>
-                <!-- Profile section for John Doe -->
-                <section>
-                    <!-- Image of John Doe-->
-                    <img src="images/john.jpg" alt="an-image-of-John-Doe" class="john">
-                    <!-- Name of the team member -->
-                    <h3>John Doe</h3>
-                    <!-- Title of John Doe -->
-                    <h4>CEO and Co-owner</h4>
-                    <!-- Brief bio -->
-                    <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Deserunt nostrum perspiciatis iste fugiat ut ex alias suscipit dolorum consequatur, nemo eius excepturi sit omnis quasi natus vel modi ipsa rem.</p>
-                </section>
-                <!-- Profile section for Bob Rite -->
-                <section>
-                    <!-- Image of Bob Rite - Ensure the correct file path -->
-                    <img src="images/bob.jpg" alt="an-image-of-bob-rite" class="bob">
+                    <!-- uses grid to align team section -->
+                <div class="team">
+                    <!-- Profile section for John Doe -->
+                    <section class="box box1">
+                        <!-- Image of John Doe-->
+                        <img src="images/john.jpg" alt="an-image-of-John-Doe" class="john">
+                    </section>
+                    <section class="box box2">
+                        <!-- Name of the team member -->
+                        <h3>John Doe</h3>
+                        <!-- Title of John Doe -->
+                        <h4>CEO and Co-owner</h4>
+                        <!-- Brief bio -->
+                        <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Deserunt nostrum perspiciatis iste fugiat ut ex alias suscipit dolorum consequatur, nemo eius excepturi sit omnis quasi natus vel modi ipsa rem.</p>
+                    </section>
+                    <!-- Profile section for Bob Rite -->
+                    <section class="box box3">
+                        <!-- Image of Bob Rite - Ensure the correct file path -->
+                        <img src="images/bob.jpg" alt="an-image-of-bob-rite" class="bob">
+                    </section>
+                    <section class="box box4">
                     <!-- Name of the team member -->
                     <h3>Bob Rite</h3>
                     <!-- Title of Bob Rite -->
                     <h4>CFO and Co-owner</h4>
                     <!-- Brief bio -->
                     <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Ipsa sint, eveniet molestiae nulla voluptatum recusandae distinctio enim. Pariatur, est! Sapiente assumenda aliquid omnis reiciendis aliquam earum officia autem dolorum asperiores.</p>
-                </section>
+                    </section>
+                </div>
             </div>
                 <div>
                     <!-- Contact Us Section -->
