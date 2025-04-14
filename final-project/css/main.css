@@ -66,3 +66,46 @@ ul{
 }
 
 
+.main-banner {
+    width: 100%;
+}
+.main-banner-container {
+    position: relative;
+    width: 100%;
+  }
+  
+  .main-banner {
+    width: 100%;
+    height: auto;
+    display: block;
+  }
+  
+
+  .welcome {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: white;
+    text-align: center;
+    width: 100%;
+    padding-top: 15rem;
+    /* opacity: 80%; */
+  }
+
+  .main-heading {
+    font-size: 10rem;
+    background-color: #222222c2;
+    text-align: left;
+    height: 102rem;
+   
+  }
+  /* heading image */
+  .main-banner {
+    display: flex;
+    align-items: center;
+    width: 200rem;
+    overflow: hidden;
+    flex-wrap: wrap;
+
+  }
