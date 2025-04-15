@@ -68,27 +68,34 @@ ul{
 .search-button {
     color: #222;
 }
-
-
-
-.main-banner-container {
-    position: relative;
+.main{
+    background-image: url("../images/main-banner.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
     width: 100%;
-  }
-
-
-.welcome {
-  position: absolute;
-  top: 25%;
-  left: 50%;
-  transform: translate(-50%, -50%);
-  color: white;
-  text-align: center;
-  width: 100%;
-  height: ;
-  margin-top: 10rem;
-  background-color: #222222c2;
+    margin: ;
+  
 }
+.welcome {
+    
+    /* position: absolute;
+    top: 17%;
+    left: 50%;
+    transform: translate(-50%, -50%); */
+    color: white;
+    text-align: left;
+    width: 100%;
+    height: 70%;
+    margin-top: 10rem;
+    background-color: #222222c2;
+    padding-left: ;
+}
+
+.box1{
+    padding-left: 1rem;
+}
+
+
 
 .main-banner {
     display: block;
@@ -113,12 +120,7 @@ ul{
 
 /* header container */
 
-.main{
-    position: relative;
-    width: 100%;
-    margin: ;
-  
-}
+
 
 h1 {
     font-size: 3rem; 
