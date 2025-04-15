@@ -90,37 +90,12 @@ ul{
   background-color: #222222c2;
 }
 
-/* .main-heading {
-  font-size: 10rem;
-  text-align: left;
-  height: 15rem;
-  padding: 2rem 3rem;
-  margin: 0;
-  height: 90rem%; 
-} */
-  /* header image */
-
 .main-banner {
     display: block;
     width: 100%;
     overflow: hidden;
     flex-wrap: wrap;
     margin: 0px;
-}
-
-.cbutton {
-    position: absolute;
-    /* bottom: 20px; */
-    left: 20%;
-    transform: translateX(-50%);
-}
-
-.wrapper-tr {
-    
-}
-
-.wrapper-tr p {
-    
 }
 
 .ybutton {
