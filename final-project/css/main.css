@@ -147,3 +147,11 @@ ul{
     padding: 1rem;
 }
 
+.sbutton {
+    background-color: #222;
+    width: 150px;
+    height: 50px;
+    text-align: center;
+    padding-top: 22px;
+    
+}
