@@ -103,7 +103,6 @@ ul{
 
 .wrapper-tr {
     margin-top: 80rem;
-    
 }
 
 .wrapper-tr p {
@@ -133,7 +132,7 @@ ul{
     align-items: center;
     justify-content: center;
     width: 98%;
-    margin: 1rem 1.5rem;
+    margin: 0rem .5rem;
 
 }
 
@@ -141,12 +140,10 @@ ul{
     display: grid;
     width: 100%;
     background-color: #ffe6ac;
-    margin: 2rem;
-
 }
 
 .service-img {
-    width: 100%;
+    width: 96%;
     padding: 1rem;
-
 }
+
