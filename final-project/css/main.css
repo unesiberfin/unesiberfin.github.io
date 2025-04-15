@@ -100,15 +100,23 @@ ul{
     flex-wrap: wrap;
     margin: 0px;
 }
+
+.wrapper-tr {
+    margin-top: 80rem;
+    
+}
+
+.wrapper-tr p {
+}
   
 /* header container */
 .main{
   width: 100%;
 }
 
-.main-heading h1 {
-    margin-top: 10px;
-   
+.main-heading {
+    font-size: 3rem;
+    
   }
 
 .section-about{
@@ -129,9 +137,16 @@ ul{
 
 }
 
-
 .services {
     display: grid;
     width: 100%;
+    background-color: #ffe6ac;
+    margin: 2rem;
+
+}
+
+.service-img {
+    width: 100%;
+    padding: 1rem;
 
 }
