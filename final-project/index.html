@@ -4,6 +4,9 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Final Project</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap" rel="stylesheet">
     <script src="https://kit.fontawesome.com/841d7b8de7.js" crossorigin="anonymous"></script>
     <link rel="reset" href="/css/reset.css">
     <link rel="stylesheet" href="css/main.css">
@@ -11,7 +14,7 @@
 <body>
     <!-- contains nav-bar and welcome section -->
         <header>
-            <div class="container">
+            <section class="container">
                  <!-- will be used to style navigation bar background -->
                  <nav class="navbar">
                      <div class="logo-container">
@@ -32,32 +35,24 @@
                      </form>
                  </div>
             </div>
-            <div class="main">
+            <section class="main">
                 <!-- main content background goes here -->
-                 <!-- main content goes here -->
                 <img src="images/main-banner.jpg" alt="image of an office" class="main-banner">
-                <div class="welcome">
-                    <div class="wrapper-tr">
-                        <h1 class="main-heading">Welcome to Three Star Media</h1>
+                 <!-- main content goes here -->
+                 <div class="welcome">
+                        <h1>Welcome to Three Star Media</h1>
                         <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Eaque totam facilis modi ullam reprehenderit quos natus. Quod exercitationem, nobis quo, natus ipsa aperiam beatae, tempora et doloribus reprehenderit maiores nisi?</p>
-                    </div>
+                        <a href="#" class="ybutton">Connect with us<i class="fa-solid fa-caret-right"></i></a>
                 </div>
-                    <div>
-                    <!-- action will be added to the button -->
-                    <a href="#">Connect with us <i class="fa-solid fa-caret-right"></i></a>
-                    </div>
-            </div>
-                <!-- connect button -->
-               
-            </div>
+            </section>
         </header> 
          <!-- Adds margin to create spacing around the main content -->
         <main class="main-content">
             <!-- Main navigation container for structuring content -->
-            <div class="container-main">
+            <section class="container-main">
                 <!-- Section for the About Us content -->
                 <div class="section-about">
-                    <div>
+                    <div class="about">
                         <img src="images/about-us.jpg" alt="image-of-a-tennis-table" class="banner2">
                         <h2>About Us</h2>
                         <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Facere velit, accusantium placeat harum sapiente earum suscipit dolor asperiores fuga deleniti quae alias veritatis consequuntur necessitatibus tempora in officiis error praesentium!
@@ -66,8 +61,8 @@
                         </p>
                     </div>
                 </div>
-            </div>
-            <div class="">
+            </section>
+            <section class="">
                 <!-- Container for our services section using Flexbox - 5 sections -->
                 <h2 class="">Our Services</h2>
                  <!-- Section for Digital Transformation Services -->
@@ -78,7 +73,7 @@
                     <!-- Image representing digital transformation -->
                     <!-- Description of digital transformation services -->
                     <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quod mollitia animi, enim veniam similique minima voluptate ducimus vero, blanditiis deserunt quam dicta quidem? Nihil illo impedit dicta quibusdam aperiam asperiores?</p>
-                    <a href="#" class="digital-link sbutton">Digital Plans <i class="fa-solid fa-caret-right"></i></a>
+                    <a href="#" class="digital-link mbutton">Digital Plans <i class="fa-solid fa-caret-right"></i></a>
                 </div>
                 <!-- Section for Marketing Services -->
                 <div class="services">
@@ -89,7 +84,7 @@
                     <!-- Description of marketing services -->
                     <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quod mollitia animi, enim veniam similique minima voluptate ducimus vero, blanditiis deserunt quam dicta quidem? Nihil illo impedit dicta quibusdam aperiam asperiores?</p>
                     <!-- Button for marketing services -->
-                    <a href="#" class="marketing-link sbutton">Marketing <i class="fa-solid fa-caret-right"></i></a>
+                    <a href="#" class="marketing-link mbutton">Marketing <i class="fa-solid fa-caret-right"></i></a>
                 </div>
                 <!-- Section for Video Production Services -->
                 <div class="services">
@@ -99,7 +94,7 @@
                     <h3>Video Production</h3>
                     <!-- Description of video production services -->
                     <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Velit optio dolorem, voluptatibus quasi quaerat temporibus sunt nam? Delectus sequi voluptates et quasi tempore, maiores odit error beatae similique eum placeat.</p>
-                    <a href="#" class="video-link sbutton">Video Plans <i class="fa-solid fa-caret-right"></i></a>
+                    <a href="#" class="video-link mbutton">Video Plans <i class="fa-solid fa-caret-right"></i></a>
                 </div>
                  <!-- Section for Web Development Services -->
                 <div class="services">
@@ -109,7 +104,7 @@
                     <h3>Web Development</h3>
                     <!-- Description of web development services -->
                     <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Illo aut expedita, aliquam reprehenderit id ipsum sunt, deleniti numquam alias voluptatum inventore corrupti in voluptate soluta atque et quam sint magnam?</p>
-                    <a href="#" class="web-link sbutton">Web Plans <i class="fa-solid fa-caret-right"></i></a>
+                    <a href="#" class="web-link mbutton">Web Plans <i class="fa-solid fa-caret-right"></i></a>
                 </div>
                 <!-- Section for Print Services -->
                 <div class="services">
@@ -118,10 +113,10 @@
                     <h3>Print</h3>
                     <!-- Description of print services -->
                     <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Porro eum accusantium, rem dolor quo repellat quae dignissimos explicabo eligendi, quam voluptates. Impedit id deleniti quasi officiis officia, saepe alias in.</p>
-                    <a href="#" class="print-link sbutton">Print Plans <i class="fa-solid fa-caret-right"></i></a>
+                    <a href="#" class="print-link mbutton">Print Plans <i class="fa-solid fa-caret-right"></i></a>
                 </div>
-            </div>
-            <div>
+            </section>
+            <section>
                  <!-- Section for "Our Vision" -->
                 <div>
                     <!-- Image representing vision-->
@@ -132,8 +127,8 @@
                     <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Reprehenderit consectetur quidem a saepe velit, magnam ducimus maxime sunt quaerat ex tempora necessitatibus assumenda nam non magni fugit modi maiores omnis.</p>
                     <a href="#" class="learn">Learn More<i class="fa-solid fa-caret-right"></i></a>
                 </div>
-            </div>
-            <div class="section-team">
+            </section>
+            <section class="section-team">
                     <!-- Section heading for the team members -->
                 <h2>Our Team</h2>
                     <!-- uses grid to align team section -->
@@ -165,7 +160,7 @@
                     <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Ipsa sint, eveniet molestiae nulla voluptatum recusandae distinctio enim. Pariatur, est! Sapiente assumenda aliquid omnis reiciendis aliquam earum officia autem dolorum asperiores.</p>
                     </section>
                 </div>
-            </div>
+            </section>
                 <div>
                     <!-- Contact Us Section -->
                     <section class="contact-us-section">
@@ -215,8 +210,8 @@
         </main>
         
         <footer>
-            <p>Copywrite Three Stars Media, 2020<p> 
-            <p>All images are taken from <a href="https://unsplash.com/">Unsplash</a><p> 
+            <p>Copywrite Three Stars Media, 2020</p> 
+            <p>All images are taken from <a href="https://unsplash.com/">Unsplash</a></p> 
         </footer>
 </body>
 </html>  

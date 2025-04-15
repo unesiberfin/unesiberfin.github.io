@@ -1,4 +1,8 @@
 /* #c78c06, #ffe6ac, #222 and white */
+html {
+	font-family: 'open sans';
+    
+}
 .container {
     background-color: #222;
     margin: 0;
@@ -81,42 +85,69 @@ ul{
   color: white;
   text-align: center;
   width: 100%;
+  height: ;
+  margin-top: 10rem;
+  background-color: #222222c2;
 }
 
-.main-heading {
+/* .main-heading {
   font-size: 10rem;
-  background-color: #222222c2;
   text-align: left;
   height: 15rem;
   padding: 2rem 3rem;
-}
+  margin: 0;
+  height: 90rem%; 
+} */
   /* header image */
 
 .main-banner {
-    display: flex;
-    align-items: center;
+    display: block;
     width: 100%;
     overflow: hidden;
     flex-wrap: wrap;
     margin: 0px;
 }
 
+.cbutton {
+    position: absolute;
+    /* bottom: 20px; */
+    left: 20%;
+    transform: translateX(-50%);
+}
+
 .wrapper-tr {
-    margin-top: 80rem;
+    
 }
 
 .wrapper-tr p {
-}
-  
-/* header container */
-.main{
-  width: 100%;
+    
 }
 
-.main-heading {
-    font-size: 3rem;
-    
-  }
+.ybutton {
+    background-color:#c78c06;
+    width: 200px;
+    height: 65px;
+    text-align: right;
+    padding-top: 22px;
+    color: black;
+    text-decoration: none; display: flex;
+    align-items: center;         
+    justify-content: space-between; 
+    padding: 0 10px;      
+}
+
+/* header container */
+
+.main{
+    position: relative;
+    width: 100%;
+    margin: ;
+  
+}
+
+h1 {
+    font-size: 3rem; 
+}
 
 .section-about{
     display: wrap;
@@ -126,32 +157,50 @@ ul{
     flex-wrap: wrap;
 }
 
+
 /* section about us */
 .banner2 {
     display: flex;
     align-items: center;
     justify-content: center;
     width: 98%;
-    margin: 0rem .5rem;
-
+    margin-right: 1rem;
 }
 
+.about {
+    padding: 1rem;
+}
 .services {
     display: grid;
     width: 100%;
     background-color: #ffe6ac;
+    padding: 0rem 1rem 1rem 1rem;
+    margin-top: 1rem;
+    
+}
+
+.services h3 {
+    font-size: 2rem;
+    
 }
 
 .service-img {
-    width: 96%;
-    padding: 1rem;
+    width: 100%;
+    overflow: hidden;
+    margin-left: 0px;
+
 }
 
-.sbutton {
+.mbutton {
     background-color: #222;
     width: 150px;
     height: 50px;
     text-align: center;
     padding-top: 22px;
-    
+    color: white;
+    text-decoration: none;
+    font-size: 1.25rem;
+    font-weight:200;
+
 }
+
