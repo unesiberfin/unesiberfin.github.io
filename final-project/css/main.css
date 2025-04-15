@@ -71,59 +71,66 @@ ul{
 .main{
     background-image: url("../images/main-banner.jpg");
     background-repeat: no-repeat;
-    
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }
+
 .welcome {
- 
     color: white;
     text-align: left;
     display: flex;
-    width: 100%;
-    padding: 4rem 1rem 1rem 1rem;
+    padding: 7rem 1rem 1rem 0rem;
     margin-top: 0;
-    height: 40rem;
+    height: 51.5rem;
 }
 
 
 .box1{
     background-color: #222222c2;
-    height: 500px;
-    padding-right: 4rem;
+    padding-left: 1rem;
     margin-left: 0;
     height: 90%;
     width: 100%;
-   
-    
+    margin: ;
+
 }
 
+.welcome h1 {
+    font-size: 6rem;
+    margin:4rem 0;
+}
 
+.welcome p {
+    font-size: 1.5rem;
+}
 
 .ybutton {
     background-color:#c78c06;
-    width: 200px;
-    height: 65px;
-    text-align: right;
-    padding-top: 22px;
+    width: 22rem;
+    height: 10rem;
+    /* text-align: center; */
+    /* padding-top: 12rem; */
     color: black;
-    text-decoration: none; display: flex;
+    text-decoration: none; 
+    display: flex;
     align-items: center;         
-    justify-content: space-between; 
-    padding: 0 10px;      
+    justify-content: space-between;
+    font-size: 2rem;
+    padding-left: 3rem;  
 }
 
 /* header container */
 
-
-
-h1 {
-    font-size: 3rem; 
+.welcome .fa-caret-right{
+    margin-right: 3rem;
+    font-size: 3.5rem;
 }
 
 .section-about{
     display: wrap;
     background-color: #ffe6ac;
     padding-top: 1rem;
-    width:;
     flex-wrap: wrap;
 }
 
@@ -138,7 +145,7 @@ h1 {
 }
 
 .about {
-    padding: 1rem;
+    padding-left: 1rem;
 }
 .services {
     display: grid;
@@ -153,9 +160,7 @@ h1 {
     margin-bottom: 0;
     
 }
-.serv-img{
 
-}
 .service-img {
     width: 100%;
     overflow: hidden;
