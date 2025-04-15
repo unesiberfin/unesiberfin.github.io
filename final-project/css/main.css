@@ -66,46 +66,67 @@ ul{
 }
 
 
-.main-banner {
-    width: 100%;
-}
+
 .main-banner-container {
     position: relative;
     width: 100%;
   }
-  
-  .main-banner {
-    width: 100%;
-    height: auto;
-    display: block;
-  }
-  
 
-  .welcome {
-    position: absolute;
-    top: 50%;
-    left: 50%;
-    transform: translate(-50%, -50%);
-    color: white;
-    text-align: center;
-    width: 100%;
-    padding-top: 15rem;
-    /* opacity: 80%; */
-  }
 
-  .main-heading {
-    font-size: 10rem;
-    background-color: #222222c2;
-    text-align: left;
-    height: 102rem;
-   
-  }
-  /* heading image */
-  .main-banner {
+.welcome {
+  position: absolute;
+  top: 25%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  color: white;
+  text-align: center;
+  width: 100%;
+}
+
+.main-heading {
+  font-size: 10rem;
+  background-color: #222222c2;
+  text-align: left;
+  height: 15rem;
+  padding: 2rem 3rem;
+}
+  /* header image */
+
+.main-banner {
     display: flex;
     align-items: center;
-    width: 200rem;
+    width: 100%;
     overflow: hidden;
     flex-wrap: wrap;
+    margin: 0px;
+}
+  
+/* header container */
+.main{
+  width: 100%;
+}
 
+.main-heading h1 {
+    margin-top: 10px;
+   
   }
+
+.section-about{
+    display: wrap;
+    background-color: #ffe6ac;
+    padding-top: 1rem;
+    width:;
+    flex-wrap: wrap;
+}
+
+/* section about us */
+.banner2 {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 98%;
+    margin: 1rem 1.5rem;
+
+}
+
+  
