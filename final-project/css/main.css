@@ -129,4 +129,9 @@ ul{
 
 }
 
-  
+
+.services {
+    display: grid;
+    width: 100%;
+
+}
