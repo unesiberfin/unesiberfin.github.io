@@ -17,27 +17,27 @@
             <section class="container">
                  <!-- will be used to style navigation bar background -->
                  <nav class="navbar">
-                     <div class="logo-container">
+                    <div class="logo-container">
                          <img src="images/logo.png" alt="website-logo" class="logo">
-                     </div>
-                     <ul> 
-                         <li>Home</li>
-                         <li>About Us</li>
-                         <li>Services</li>
-                         <li>Team</li> 
-                         <li>Contact</li>
-                     </ul>
-                     <!-- search bar -->
-                 <div class="searchbar">
-                     <form class="searchbox" action="#" method="get">
-                     <input type="text" name="query" placeholder="Search" class="searchtext">
-                     <button type="submit" class="search-button"><i class="fas fa-search"></i></button>
-                     </form>
-                 </div>
-            </div>
+                    </div>
+                    <ul> 
+                        <li>Home</li>
+                        <li>About Us</li>
+                        <li>Services</li>
+                        <li>Team</li> 
+                        <li>Contact</li>
+                    </ul>
+                    <!-- search bar -->
+                    <div class="searchbar">
+                        <form class="searchbox" action="#" method="get">
+                        <input type="text" name="query" placeholder="Search" class="searchtext">
+                        <button type="submit" class="search-button"><i class="fas fa-search"></i></button>
+                        </form>
+                    </div>
+                </nav>
+            </section>
             <section class="main">
                 <!-- main content background goes here -->
-                <!-- <img src="images/main-banner.jpg" alt="image of an office" class="main-banner"> -->
                  <!-- main content goes here -->
                 <div class="welcome">
                     <div class="box1">
@@ -64,60 +64,59 @@
                     </div>
                 </div>
             </section>
-            <section class="ourservices">
+            
+            <section class="ourservices"><!-- this class will be used to indent services section -->
                 <!-- Container for our services section using Flexbox - 5 sections -->
                 <h2>Our Services</h2>
+                <!-- Image representing digital transformation -->
+                <img src="images/digital.jpg" alt="digital-transformation" class="digital service-img">
                  <!-- Section for Digital Transformation Services -->
                 <div class="services">
                     <!-- Subheading for digital transformation services -->
-                    <img src="images/digital.jpg" alt="digital-transformation" class="digital service-img">
                     <h3 class="digital">Digital Transformation</h3>
-                    <!-- Image representing digital transformation -->
                     <!-- Description of digital transformation services -->
                     <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quod mollitia animi, enim veniam similique minima voluptate ducimus vero, blanditiis deserunt quam dicta quidem? Nihil illo impedit dicta quibusdam aperiam asperiores?</p>
-                    <a href="#" class="digital-link mbutton">Digital Plans <i class="fa-solid fa-caret-right"></i></a>
+                    <a href="#" class="digital-link sbutton">Digital Plans <i class="fa-solid fa-caret-right"></i></a>
                 </div>
                 <!-- Section for Marketing Services -->
+                <!-- Image representing marketing services -->
+                <img src="images/marketing.jpg" alt="image-of-a-laptop" class="marketing service-img">
                 <div class="services">
-                    <!-- Image representing marketing services -->
-                    <img src="images/marketing.jpg" alt="image-of-a-laptop" class="marketing service-img">
                     <!-- Subheading for video production services -->
                     <h3 class="marketing">Marketing</h3>
                     <!-- Description of marketing services -->
                     <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quod mollitia animi, enim veniam similique minima voluptate ducimus vero, blanditiis deserunt quam dicta quidem? Nihil illo impedit dicta quibusdam aperiam asperiores?</p>
                     <!-- Button for marketing services -->
-                    <a href="#" class="marketing-link mbutton">Marketing <i class="fa-solid fa-caret-right"></i></a>
+                    <a href="#" class="marketing-link sbutton">Marketing <i class="fa-solid fa-caret-right"></i></a>
                 </div>
                 <!-- Section for Video Production Services -->
+                <!-- Image representing video production -->
+                <img src="images/video.jpg" alt="image-of-a-smartphone" class="video service-img" >
                 <div class="services">
-                    <!-- Image representing video production -->
-                    <img src="images/video.jpg" alt="image-of-a-smartphone" class="video service-img" >
                     <!-- Subheading for video production services -->
                     <h3>Video Production</h3>
                     <!-- Description of video production services -->
                     <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Velit optio dolorem, voluptatibus quasi quaerat temporibus sunt nam? Delectus sequi voluptates et quasi tempore, maiores odit error beatae similique eum placeat.</p>
-                    <a href="#" class="video-link mbutton">Video Plans <i class="fa-solid fa-caret-right"></i></a>
+                    <a href="#" class="video-link sbutton">Video Plans <i class="fa-solid fa-caret-right"></i></a>
                 </div>
+                <!-- Image representing web development-->
+                <img src="images/web.jpg" alt="image-of-a-smartphone-a-pen-a-notebook" class="web-dev service-img">
                  <!-- Section for Web Development Services -->
                 <div class="services">
-                    <!-- Image representing web development-->
-                    <img src="images/web.jpg" alt="image-of-a-smartphone-a-pen-a-notebook" class="web-dev service-img">
                     <!-- Subheading for the web development services section -->
                     <h3>Web Development</h3>
                     <!-- Description of web development services -->
                     <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Illo aut expedita, aliquam reprehenderit id ipsum sunt, deleniti numquam alias voluptatum inventore corrupti in voluptate soluta atque et quam sint magnam?</p>
-                    <a href="#" class="web-link mbutton">Web Plans <i class="fa-solid fa-caret-right"></i></a>
+                    <a href="#" class="web-link sbutton">Web Plans <i class="fa-solid fa-caret-right"></i></a>
                 </div>
                 <!-- Section for Print Services -->
+                <img src="images/print.jpg" alt="image-of-mailboxes" class="print service-img">
                 <div class="services">
-                    <div class="serv-img">
-                        <img src="images/print.jpg" alt="image-of-mailboxes" class="print service-img">
                     <!-- Subheading for the print services section -->
-                    </div>  
                     <h3>Print</h3>
                     <!-- Description of print services -->
                     <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Porro eum accusantium, rem dolor quo repellat quae dignissimos explicabo eligendi, quam voluptates. Impedit id deleniti quasi officiis officia, saepe alias in.</p>
-                    <a href="#" class="print-link mbutton">Print Plans <i class="fa-solid fa-caret-right"></i></a>
+                    <a href="#" class="print-link sbutton">Print Plans <i class="fa-solid fa-caret-right"></i></a>
                 </div>
             </section>
             <section>
