@@ -311,10 +311,28 @@ ul{
 
 /* contact us */
 .contact{
-    border: 1px groove rgb(57, 57, 57);
     box-sizing: border-box;
-    padding: 15px;
-    margin: 10px;
+    padding: 2rem;
+}
+
+
+.contact-us h2{
+    font-size: 8rem;
+    padding-left: 2rem;
+    margin: 2rem 0;
+}
+
+.contact-us h3{
+    font-size: 6rem;
+    padding-left: 2rem;
+    margin: 0;
+}
+
+
+/* contact form container begins here */
+
+.contact-us label{
+    font-size: 2rem;
 }
 
 .textbox{
@@ -322,26 +340,33 @@ ul{
     margin: 20px 0px;
 }
 
-#fname, #email {
+#name, #email {
     display: block;
     width: 100%;
-    height: 25px;
+    height: 3.5rem;
     margin-top: 10px;
 }
-
-
+/* message box */
 #message {
     display: block;
     width: 100%;
-    height: 80px;
+    height: 20rem;
     margin-top: 10px;
+    padding: ;
 }
 
 
 .button {
-    width: 60px;
+    width: 10rem;
+    color: #c78c06;
+    background-color: #000;
     margin-left: 0;
     margin-top: 20px;
-    background: transparent;
     padding: 6px;
+    font-size: 3rem;
+}
+/* contact form container ends here */
+
+operation{
+    
 }
