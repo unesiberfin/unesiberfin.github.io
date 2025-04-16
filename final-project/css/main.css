@@ -2,24 +2,27 @@
 html {
 	font-family: 'open sans';
 }
+
+/* font size for p throughout the page */
+p{
+    font-size: 2.5rem;
+}
+
+/* assigns nav background */
 .container {
     background-color: #222;
     margin: 0;
     }
     
-    
+/* styles and sizes nav logo  */
 .logo-container {
     background-color: #c78c06;
     height: 12.5rem;
     border: solid #222 1rem;
     border-bottom: 0;
     }
-        
-.logo {
-    display: flex; 
-    justify-content: left;
-    }
-    
+
+/* aligns nav bar vertically and assigns color */
 .container li {
     color: #c78c06;
     display: flex;
@@ -28,45 +31,49 @@ html {
     font-size: 1.25rem;
     }
     
+/* styles home button */
 .container ul :first-child {
     border-top: 0;
     color: #222;
     background-color: #c78c06;
 }
+/* aligns search bar  */
 .searchbar{
     padding: 0 1rem;
     padding-bottom: 0.75rem;
 }
+
+/* search bar text style */
 .searchtext {
     width: 100%;
     padding: 0.25rem;
 }
 
+/* search icon color */
 .fa-search {
     color: #c78c06;
 }
 
+/* styles search icon */
 button {
 background-color: #222;
 border: #c78c06 1px solid;
 }
 
+/* background size adjustment home button */
 ul{
     margin-top: 0;
     padding: 0 0.9375rem;
 }
 
-/* search bar */
-
+/* size adj search bar */
 .searchbox {
     display: flex;
     justify-self: center;
     width: 100%;
 }
 
-.search-button {
-    color: #222;
-}
+/* assigns and styles background img to the header */
 .main{
     background-image: url("../images/main-banner.jpg");
     background-repeat: no-repeat;
@@ -75,6 +82,7 @@ ul{
     height: 100%;
 }
 
+/* styles header text */
 .welcome {
     color: white;
     text-align: left;
@@ -83,8 +91,8 @@ ul{
     
 }
 
-
-.box1{
+/* header backdrop + style */
+.mainbox{
     background-color: #222222c2;
     padding-left: 1rem;
     padding-bottom: 2rem;
@@ -94,22 +102,18 @@ ul{
 
 }
 
+/* styles header h1 */
 .welcome h1 {
     font-size: 9rem;
     margin:4.5rem 0;
     margin-bottom: 1rem; 
 }
 
-.welcome p {
-    font-size: 2rem;
-}
-
+/* styles header button */
 .ybutton {
     background-color:#c78c06;
     width: 28rem;
     height: 12rem;
-    /* text-align: center; */
-    /* padding-top: 12rem; */
     color: black;
     text-decoration: none; 
     display: flex;
@@ -119,22 +123,21 @@ ul{
     padding-left: 3rem; 
 }
 
-/* header container */
-
+/*  size adj header button caret */
 .welcome .fa-caret-right{
     margin-right: 3rem;
     font-size: 3.rem;
 }
 
+/* adds about section background color and location  */
 .section-about{
-    display: wrap;
     background-color: #ffe6ac;
-    padding-top: 1rem;
+    padding-top: 2rem;
     flex-wrap: wrap;
 }
 
 
-/* section about us */
+/* section about us img sizing */
 .banner2 {
     display: flex;
     align-items: center;
@@ -143,28 +146,35 @@ ul{
     margin-right: 1rem;
 }
 
+/* inline alignment for about us  */
 .about {
     padding-left: 1rem;
     height: 100%;
 }
 
+/* about section h2 sizing */
 .about h2 {
     font-size: 6.5rem;
     margin: 1rem 0;
 }
-
+/* adds padding to about section text inside the container */
 .about p {
-    font-size: 2rem;
     padding-bottom: 2.25rem;
 
 }
+
+/* our services section (all 5) left margin */
 .ourservices{
-    margin-left: 1.5rem;
-}
-.ourservices h2 {
-    font-size: 8rem;
+    margin: 0 2rem;
 }
 
+/* h2 sizing our services section (all 5) */
+.ourservices h2 {
+    font-size: 8rem;
+    margin-bottom: 1rem;
+}
+
+/* assigns the background color and aligns our services sections (all 5) */
 .services {
     display: grid;
     background-color: #ffe6ac;
@@ -173,6 +183,7 @@ ul{
     
 }
 
+/* h3 sizing our services section (all 5) */
 .services h3 {
     font-size: 5rem;
     margin-bottom: 1rem;
@@ -180,10 +191,12 @@ ul{
     
 }
 
+/* text sizing our services sections (all 5) */
 .services p{
-    font-size: 2rem;
+    font-size: 2.5rem;
 }
 
+/* img sizing and alingment our services sections (all 5) */
 .service-img {
     width: 100%;
     overflow: hidden;
@@ -191,6 +204,7 @@ ul{
     margin-top: 2rem;
 }
 
+/* adds color, resized and aligns button for our services sections (all 5) */
 .sbutton {
     background-color: #222;
     width: 40rem;
@@ -210,38 +224,90 @@ ul{
     margin-left: 2rem;
 }
 
-
-/* .vision h3{
-    position: relative;
-    top: 30px;
-    bottom: 30px;
-    tra
-    color: white;
-    font-size: 3rem;
-}
-
-
-.vision img {
-    width: 100%;
-    height: 45rem;
-    display: block;
-    object-fit: cover;
-    margin-top: 5rem;
-} */
-
+/* assigns background img and resizes the vision section container */
 .vision {
     background-image: url("../images/vision.jpg");
     top: 200px;
     background-repeat: no-repeat;
     background-size: cover;
     background-position: 50%;
-    /* padding: 2rem 4rem;
-    margin-bottom: 2rem; */
+    height: 54rem;
+    margin-right: 0;
+    margin-top: 5rem;
+    padding: 2rem 3rem;
 }
 
-.vision h3
-
- .john, .bob {
-    width: 30px;
+/* size adj heading vision section  */
+.vision h3 {
+    font-size: 5rem;
+    color: white;
+    margin-top: 3rem;
 }
+/* size adj text vision section  */
+.vision p {
+    font-size: 2.5rem;
+    color: white;
+    height: 20rem;
+    
+}
+/* vision section button color and size  */
+.vision .learn{
+    font-size: 5rem;
+    border: #c78c06 1px solid;
+    padding: 8rem;
+    color: white;
+    text-decoration: none;
+    background-color: #222222bb;
+   
+}
+
+.vision .fa-caret-right {
+    font-size: 5rem;
+    margin-left: 3rem;
+}
+
+.section-team h2 {
+    font-size: 12rem;
+    margin: 4rem 0 1rem 0;
+}
+.section-team{
+    display: grid;
+    margin-left: 2rem;
+}
+
+.john, .bob{
+    width: 100%;
+    padding-left: 0;
+}
+/* team members background color and inline left padding */
+.box{
+    background-color: #ffe6ac;
+    padding-left: 2rem;
+}
+
+/* team members heading size adj */
+.box h3 {
+    margin: 0;
+    font-size: 6rem;
+}
+
+/* team members img left alignment */
+.box1 {
+    padding-left: 0;
+}
+
+/* team members subheading underline and size adj */
+.team h4 {
+    border-bottom: #c78c06 solid 0.25rem;
+    font-size: 3rem;
+    margin: 0;
+}
+
+/* team member text size adj and aligning */
+.team p {
+    margin: 0;
+    padding: 2rem 0 6rem 0;
+}
+
+/* contact us */
 

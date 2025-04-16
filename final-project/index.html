@@ -40,7 +40,7 @@
                 <!-- main content background goes here -->
                  <!-- main content goes here -->
                 <div class="welcome">
-                    <div class="box1">
+                    <div class="mainbox">
                         <h1>Welcome to Three Star Media</h1>
                         <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Eaque totam facilis modi ullam reprehenderit quos natus. Quod exercitationem, nobis quo, natus ipsa aperiam beatae, tempora et doloribus reprehenderit maiores nisi?</p>
                         <a href="#" class="ybutton">Connect with us<i class="fa-solid fa-caret-right"></i></a>
@@ -160,52 +160,49 @@
                     </section>
                 </div>
             </section>
-                <div>
-                    <!-- Contact Us Section -->
-                    <section class="contact-us-section">
-                        <h2>Contact Us</h2>
-                         <!-- Contact Form: Send a message -->
-                        <div>
-                            <!-- Contact Form -->
-                            <form action="#" method="POST">
-                            <h3>Send us a message</h3>
-                                <div>
-                                    <label for="fname">Full Name</label>
-                                    <input id="fname" name="fullname" type="text" required>  
-                                </div>
-                                <div>
-                                    <label for="email">Email</label>
-                                    <input id="email" name="email" type="text" required>
-                                </div>
-                                <div>
-                                    <label for="message">Message</label>
-                                    <textarea id="message" name="message" required></textarea>
-                                </div>
-                                <div>
-                                <button type="submit" class="send">Send</button>
-                                </div>
-                            </form>
-                            <!-- Location Section: Embeding Google Maps -->
-                                <div class="location-section">
-                                <h3 class="location-title">Location</h3>
-                                <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d5607.938031516173!2d-75.7577939481628!3d45.349437719955006!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x4cce0718cc4a6ad7%3A0xc6cc467725843e2b!2sAlgonquin%20College%20-%20Ottawa%20Campus!5e0!3m2!1sen!2sca!4v1743490127931!5m2!1sen!2sca" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
-                                </div>
-                                <h3 class="hours-title">Hours of operation</h3>
-                                <!-- for the business hours table -->
-                                <table class="hours-table">
-                                    <tr>
-                                        <td>Monday - Friday</td>
-                                        <td>9 AM - 6 PM</td>
-                                    </tr>
-                                    <tr>
-                                        <td>Saturday - Sunday</td>
-                                        <td>Closed</td>
-                                    </tr>
-                                </table>
+            <!-- Contact Us Section -->
+            <section class="contact-us">
+                <h2>Contact Us</h2>
+                 <!-- Contact Form: Send a message -->
+                    <!-- Contact Form -->
+                    <div class="contact">
+                        <form action="#" method="GET">
+                            <!-- the class textbox is used for assigning inline value -->
+                            <div class="textbox">
+                                <label for="fname">Your Name</label>
+                                <input id="fname" name="firstname" type="text">  
+                            </div>
+                            <div class="textbox"> 
+                                <label for="email">Your Email</label>
+                                <input id="email" name="email" type="text">
+                            </div>
+                            <div class="textbox"> 
+                                <label for="message">Your Message</label>
+                                <input id="message" name="message" type="text">
+                            </div>
+                            <div>
+                                <button type="Submit" class="button">SEND</button>
+                            </div>
+                        </form>
+                        <!-- Location Section: Embeding Google Maps -->
+                        <div class="location-section">
+                        <h3 class="location-title">Location</h3>
+                        <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d5607.938031516173!2d-75.7577939481628!3d45.349437719955006!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x4cce0718cc4a6ad7%3A0xc6cc467725843e2b!2sAlgonquin%20College%20-%20Ottawa%20Campus!5e0!3m2!1sen!2sca!4v1743490127931!5m2!1sen!2sca" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
                         </div>
-                    </section>
+                        <h3 class="hours-title">Hours of operation</h3>
+                        <!-- for the business hours table -->
+                        <table class="hours-table">
+                            <tr>
+                                <td>Monday - Friday</td>
+                                <td>9 AM - 6 PM</td>
+                            </tr>
+                            <tr>
+                                <td>Saturday - Sunday</td>
+                                <td>Closed</td>
+                            </tr>
+                        </table>
                 </div>
-            </div>
+            </section>
         </main>
         
         <footer>
