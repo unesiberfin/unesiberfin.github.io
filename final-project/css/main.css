@@ -461,8 +461,34 @@ footer a {
     .searchtext{
         padding: .6rem;
     }
+    .mainbox{
+        margin: 0 5rem;
+    }
+    .main p{
+        font-size: 1rem;
+    }
+    .ybutton{
+        font-size: 2rem;
+        width: 20rem;
+        height: 10rem;
+    }
+    .main h1 {
+        
+        font-size: 5.75rem;
+    }
 
-/*  */
+/* 
+.idkfornow{
+    position:absolute;
+    right: -10%;
+    left: -10%;
+    width: 100%;
+    height: 100%;
+    margin-top: 20px;
+    padding-top: 200rem;
+
+
+} */
 }
 
 
