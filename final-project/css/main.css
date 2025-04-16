@@ -509,6 +509,55 @@ footer a {
 
 
 }
+/* team section for desktop ver */
+
+.team {
+    display: grid;
+    grid-template-columns: repeat(2,1fr);;
+    grid-template-rows: repeat(2,1fr);
+    border: #222 1px solid;
+    /* width: 1190px; */
+}
+
+.box1 {
+    grid-row: 1;
+    grid-column: 1;
+}
+.box2 {
+    grid-row: 1;
+    grid-column: 2;
+    display: flex;
+    flex-direction: column;
+    background-color: #ffe6ac;
+}
+
+.box3 {
+    grid-row: 2;
+    grid-column: 2;
+}
+.box4 {
+    grid-row: 2;
+    grid-column: 1;
+    display: flex;
+    flex-direction: column;
+    background-color: #ffe6ac;
+    padding: 1rem;
+}
+
+.team h4 {
+    border-bottom: #c78c06 solid 2px;
+}
+
+.team h2{
+    background-color: transparent;
+}
+
+.contact-us {
+
+}
+
+  
+
 /* 
 .back{
     position:absolute;
