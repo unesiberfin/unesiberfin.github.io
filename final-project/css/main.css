@@ -292,10 +292,12 @@ ul{
 }
 
 /* team members img left alignment */
-.box1 {
+.box1, .box3 {
     padding-left: 0;
 }
-
+.box3 {
+    margin-top: 2rem;
+}
 /* team members subheading underline and size adj */
 .team h4 {
     border-bottom: #c78c06 solid 0.25rem;
@@ -368,5 +370,5 @@ ul{
 /* contact form container ends here */
 
 operation{
-    
+
 }
