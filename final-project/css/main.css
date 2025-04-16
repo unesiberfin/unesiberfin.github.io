@@ -368,7 +368,32 @@ ul{
     font-size: 3rem;
 }
 /* contact form container ends here */
-
-operation{
-
+.hours-table{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1fr 1fr;
+    margin-left: 2rem;
+    font-size: 2rem;
 }
+.operation h3 {
+    font-size: 6rem;
+}
+.trtitle{
+    background-color: #ffe6ac;
+}
+
+table {
+    table-layout: auto;
+    width: 100%;
+  }
+  
+td {
+  border: 1px solid black;
+  padding: 2rem 50rem 2rem 2rem ;
+  white-space: nowrap;
+}
+
+
+
+
+
