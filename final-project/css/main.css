@@ -210,7 +210,38 @@ ul{
     margin-left: 2rem;
 }
 
-.vision-img, .john, .bob {
+
+/* .vision h3{
+    position: relative;
+    top: 30px;
+    bottom: 30px;
+    tra
+    color: white;
+    font-size: 3rem;
+}
+
+
+.vision img {
+    width: 100%;
+    height: 45rem;
+    display: block;
+    object-fit: cover;
+    margin-top: 5rem;
+} */
+
+.vision {
+    background-image: url("../images/vision.jpg");
+    top: 200px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: 50%;
+    /* padding: 2rem 4rem;
+    margin-bottom: 2rem; */
+}
+
+.vision h3
+
+ .john, .bob {
     width: 30px;
 }
 
